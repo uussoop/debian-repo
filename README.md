@@ -10,7 +10,7 @@ so i made a simple guide with a few steps to ease your way into it.
 basically the thing you should do is find out what architectures you are going to need on your repository then check the sizes on the official https://www.debian.org/mirror/size 
 after that you should allocate as much you think you are going to need and then a little more
 #### partitioning
-you need to create a seperate partition for better management of the repository
+you need to create a separate partition for better management of the repository
 best thing to do is to mount the new partition at a custom directory you made for this purpose : {repository folder}
 
 #### User
@@ -37,10 +37,10 @@ only remember to set the auto index on
   - set up ssl certificate with certbot or other providers
 
 ## start initial mirroring
-> do all the bellow instructions with the new user
+> do all the below instructions with the new user
 #### first you should choose where to mirror from 
 you can do this by visiting https://www.debian.org/mirror/list-full
-> remmember to choose by geographical location and protocol + needed architectures
+> remember to choose by geographical location and protocol + needed architectures
 
 #### then you'll need this tool to do this right : ftpsync
 download it to your {directory of choice} by following commands:
